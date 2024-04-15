@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-*{
+
+* {
     margin: 0;
     margin-left: 0;
     padding: 0;
@@ -115,7 +116,8 @@ justify-content: center;
 margin-top: 300px;
 }
 .cards-content {
-width: 90%;
+width: 500px;
+height: 500px;
 display: grid;
 grid-template-columns: repeat(3,1fr);
 row-gap: 20px;
@@ -132,7 +134,7 @@ column-gap: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0 0 20px 10px;
+    padding: 0 0 20px 25px;
     color: #fff;
     font-size: 17px;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -170,4 +172,15 @@ column-gap: 40px;
 #foto1:hover {
     cursor: pointer;
     transform: scale(1.03);
+}
+.cards-image {
+    width: 520px;
+    height: 520px;
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+.cards:hover {
+
 }
