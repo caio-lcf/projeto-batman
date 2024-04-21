@@ -40,16 +40,8 @@ li:hover {
     width: 40px;
     height: auto;
 }
-#foto1{
-    width: 250px;
-    height: 250px;
-    margin-top: 40%;
-    margin-right: 800px;
-    border-radius: 30px;
-    transition: 1s;
 
-}
-#foto1:hover {
-    cursor: pointer;
-    transform: scale(1.03);
+.firstfoto {
+    background-image: url('https://deuclick.com.br/wp-content/uploads/2022/03/TheBatman.jpg');
+
 }
